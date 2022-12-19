@@ -26,6 +26,7 @@ echo -e "\n"
 # The 'check' command comes from the dev-container-features-test-lib.
 check "check purple is my favorite color" bash -c "color | grep 'my favorite color is purple'"
 check "check I am greeting with 'Greetings'" bash -c "hello | grep 'Greetings, $(whoami)'"
+check "check Graphviz" bash -c "dot -V"
 
 
 # Report result

@@ -1,0 +1,17 @@
+{
+    "name": "graphviz",
+    "id": "graphviz",
+    "version": "0.9.0",
+    "description": "",
+    "documentaitionUrl": "https://www.graphviz.org/documentation/",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select the version of Graphviz to install."
+        }
+    }
+}

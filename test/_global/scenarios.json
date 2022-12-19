@@ -7,6 +7,9 @@
             },
             "hello": {
                 "greeting": "Greetings"
+            },
+            "graphviz": {
+                "version": "latest"
             }
         }
     }
