@@ -1,8 +1,6 @@
 #!/bin/sh
 set -e
 
-GRAPVIZ=${VERSION:-"7.0.4"}
-
 rm -rf /var/lib/apt/lists/*
 
 if [ "$(id -u)" -ne 0 ]; then
@@ -23,7 +21,8 @@ check_packages() {
     fi
 }
 
-check_packages graphviz
+check_packages graphviz fonts-ipafont fonts-ipaexfont
+fc-cache -fv
 
 # Clean up
 rm -rf /var/lib/apt/lists/*

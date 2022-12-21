@@ -1,7 +1,7 @@
 {
     "name": "graphviz",
     "id": "graphviz",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "",
     "documentaitionUrl": "https://www.graphviz.org/documentation/",
     "options": {
