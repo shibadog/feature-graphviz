@@ -2,7 +2,7 @@
     "id": "chrome",
     "version": "0.0.1",
     "name": "chrome",
-    "documentationURL": "https://www.google.com/intl/ja/chrome/",
+    // "documentationURL": "https://www.google.com/intl/ja/chrome/",
     "options": {
         "version": {
             "type": "string",

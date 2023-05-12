@@ -2,7 +2,7 @@
     "id": "firefox",
     "version": "0.0.1",
     "name": "firefox",
-    "documentationURL": "",
+    // "documentationURL": "",
     "options": {
         "version": {
             "type": "string",
