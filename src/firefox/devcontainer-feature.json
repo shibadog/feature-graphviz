@@ -1,0 +1,21 @@
+{
+    "id": "firefox",
+    "version": "0.0.1",
+    "name": "firefox",
+    "documentationURL": "",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": ""
+        }
+    },
+    "containerEnv": {
+        "DISPLAY": "host.docker.internal:0.0",
+        "PATH": "/opt/firefox:${PATH}"
+    },
+    "installsAfter": []
+}

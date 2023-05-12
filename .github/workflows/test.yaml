@@ -15,6 +15,8 @@ jobs:
         features:
           - color
           - hello
+          - firefox
+          - graphviz
         baseImage:
           - debian:latest
           - ubuntu:latest

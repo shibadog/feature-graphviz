@@ -10,6 +10,9 @@
             },
             "graphviz": {
                 "version": "latest"
+            },
+            "firefox": {
+                "version": "latest"
             }
         }
     }

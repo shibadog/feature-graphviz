@@ -1,0 +1,21 @@
+{
+    "id": "chrome",
+    "version": "0.0.1",
+    "name": "chrome",
+    "documentationURL": "https://www.google.com/intl/ja/chrome/",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": ""
+        }
+    },
+    "containerEnv": {
+        "CHROME_HOME": "/opt/google/chrome",
+        "PATH": "/opt/google/chrome:$PATH"
+    },
+    "installsAfter": []
+}
