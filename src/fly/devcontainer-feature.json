@@ -1,0 +1,28 @@
+{
+    "id": "fly",
+    "name": "fly",
+    "version": "0.0.1",
+    "description": "",
+    "documentaitionUrl": "https://github.com/concourse/concourse",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select the version of Graphviz to install."
+        },
+        "concourseUrl": {
+            "type": "string",
+            "default": "none",
+            "description": "URL of the Concourse that you should download.",
+            "proposals": [
+                "none"
+            ]
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/wget-apt-get"
+    ]
+}
