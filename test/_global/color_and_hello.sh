@@ -28,6 +28,7 @@ check "check purple is my favorite color" bash -c "color | grep 'my favorite col
 check "check I am greeting with 'Greetings'" bash -c "hello | grep 'Greetings, $(whoami)'"
 check "check Graphviz" bash -c "dot -V"
 check "check firefox" bash -c "firefox --version"
+check "check fly bash -c "fly"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

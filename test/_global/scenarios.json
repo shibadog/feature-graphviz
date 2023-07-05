@@ -13,6 +13,9 @@
             },
             "firefox": {
                 "version": "latest"
+            },
+            "fly": {
+                "version": "latest"
             }
         }
     }
