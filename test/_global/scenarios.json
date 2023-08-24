@@ -16,6 +16,9 @@
             },
             "fly": {
                 "version": "latest"
+            },
+            "ytt": {
+                "version": "latest"
             }
         }
     }

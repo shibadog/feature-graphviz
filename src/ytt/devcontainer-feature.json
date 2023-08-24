@@ -1,0 +1,20 @@
+{
+    "id": "ytt",
+    "name": "ytt",
+    "version": "0.0.1",
+    "description": "",
+    "documentaitionUrl": "https://github.com/carvel-dev/ytt",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select the version of ytt to install."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/wget-apt-get"
+    ]
+}
