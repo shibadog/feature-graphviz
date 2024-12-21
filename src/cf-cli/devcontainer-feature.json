@@ -1,20 +1,18 @@
 {
     "id": "cf-cli",
     "name": "cf-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "documentaitionUrl": "https://github.com/cloudfoundry/cli",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "latest"
+                "7",
+                "8"
             ],
-            "default": "latest",
-            "description": "Select the version of Graphviz to install."
+            "default": "7",
+            "description": ""
         }
-    },
-    "installsAfter": [
-        "ghcr.io/devcontainers-contrib/features/wget-apt-get"
-    ]
+    }
 }

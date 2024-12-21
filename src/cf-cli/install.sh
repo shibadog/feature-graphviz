@@ -9,7 +9,12 @@ ensure_nanolayer nanolayer_location "v0.4.45"
 $nanolayer_location \
     install \
     devcontainer-feature \
-    "ghcr.io/devcontainers-contrib/features/homebrew-package:1.0.7" \
-    --option packages='cloudfoundry/tap/cf-cli' --option version="$VERSION"
+    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2.0.4" \
+    --option shallow_clone='true' --option update="ture"
+source /etc/profile.d/nanolayer-homebrew.sh
+
+su - "$_REMOTE_USER" <<EOF
+    brew install cloudfoundry/tap/cf-cli@${VERSION}
+EOF
 
 echo 'Done!'
