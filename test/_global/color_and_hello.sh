@@ -30,6 +30,7 @@ check "check Graphviz" bash -c "dot -V"
 check "check firefox" bash -c "firefox --version"
 check "check fly" bash -c "fly"
 check "check ytt" bash -c "ytt"
+check "check cf-cli" bash -c "cf"
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.

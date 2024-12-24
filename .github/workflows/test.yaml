@@ -19,6 +19,7 @@ jobs:
           - graphviz
           - fly
           - ytt
+          - cf-cli
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
